@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Entrar - Shrink Suplementos</title>
+</head>
+<body>
+    <main>
+        
+        <div class="content-container">
+            <div class="login-container">
+                
+
+                <div class="sources-container">
+                    <div class="img">
+                        
+                        <div class="logo-container">
+                            <img src="/source/img/logo.svg" alt="">
+                        </div>
+                        
+                        <div class="img-container-vector">
+                            <img src="/source/img/Vector.svg">
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="" id="form-login">
+                    <div class="logo-container-movel">
+                        <img src="/source/img/logo.svg" alt="">
+                    </div>
+                    <div class="container-contraste" id="buttonContrast">
+                        <button class="form-button-contraste" >Ativar Modo Alto Contraste <img src="source/img/lua-icon.svg" alt="ícone de lua" id="icon-lua"></button>
+                        <img src="source/img/libras/contraste.gif" alt="contraste em libras" class="gif-icon-contraste">
+                    </div>
+                    <h1 class="form-title">OLÁ NOVAMENTE</h1>
+                    <h2 class="form-h2">Coloque as informações para entrar</h2>
+                    <div class="form-inputs">
+
+                        <label for="email" class="label-input">Email
+                            <input type="email" name="email" id="email" placeholder="Ex: jacadasilva@email.com" class="form-input" required>
+                            <img src="source/img/libras/email.gif" alt="email em libras" class="gif-icon">
+                        </label>
+
+                        <label for="senha" class="label-input">Senha
+                            <input type="password" name="senha" id="senha" placeholder="Ex: jacamole123" class="form-input" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula e um número, com no mínimo 8 caracteres." required>
+                            <img src="source/img/libras/senha.gif" alt="senha" class="gif-icon">
+                        </label>
+
+
+                    </div>
+                    
+                
+                    <button class="form-button">Entrar</button>
+                    <img src="source/img/libras/libras_cadastro.gif" alt="registrar em libras" class="gif-icon">
+                    <p class="form-p">Não têm uma conta? <a href="index.html" class="form-link">Registrar-se</a>
+                        
+                        <img src="source/img/libras/entrar.gif" alt="registrar em libras" class="gif-icon-link">
+                    </p>
+                    
+                </form>
+            
+            </div>
+        </div>
+    </main>
+
+    <script src="javascript/contrasteMode.js"></script>
+</body>
+</html>

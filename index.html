@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Registrar-se - Shrink Suplementos</title>
+</head>
+<body>
+    <main>
+        
+        <div class="content-container">
+            <div class="login-container">
+                
+
+                <div class="sources-container">
+                    <div class="img">
+                        
+                        <div class="logo-container">
+                            <img src="/source/img/logo.svg" alt="logo">
+                        </div>
+                        
+                        <div class="img-container-vector">
+                            <img src="/source/img/Vector.svg" alt="imagem">
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="" id="form-login">
+                    <div class="logo-container-movel">
+                        <img src="/source/img/logo.svg" alt="logo">
+                    </div>
+                    <div class="container-contraste" id="buttonContrast">
+                        <button class="form-button-contraste" >Ativar Modo Alto Contraste <img src="source/img/lua-icon.svg" alt="ícone de lua" id="icon-lua"></button>
+                        <img src="source/img/libras/contraste.gif" alt="contraste em libras" class="gif-icon-contraste">
+                    </div>
+                    <h1 class="form-title">VAMOS COMEÇAR</h1>
+                    <h2 class="form-h2">Crie a sua conta agora</h2>
+                    <div class="form-inputs">
+                        
+                        <label for="nome" class="label-input">Nome Completo
+                            <input type="text" name="nome" id="nome" placeholder="Ex: Jaca da Silva" class="form-input" minlength="5" maxlength="15" required>
+                            <img src="source/img/libras/nomeCompleto.gif" alt="nome completo em libras" class="gif-icon">
+                        </label>
+
+
+                        <label for="email" class="label-input">Email
+                            <input type="email" name="email" id="email" placeholder="Ex: jacacadasilva@email.com" class="form-input" required>
+                            <img src="source/img/libras/email.gif" alt="email em libras" class="gif-icon">
+                        </label>
+
+                        <label for="senha" class="label-input">Senha
+                            <input type="password" name="senha" id="senha" placeholder="Ex: jacamole123" class="form-input" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="A senha deve conter pelo menos uma letra maiúscula, uma letra minúscula e um número, com no mínimo 8 caracteres." required>
+                            <img src="source/img/libras/senha.gif" alt="senha" class="gif-icon">
+                        </label>
+
+
+                    </div>
+                    
+                
+                    <button class="form-button">Registrar</button>
+                    <img src="source/img/libras/libras_cadastro.gif" alt="registrar em libras" class="gif-icon">
+                    <p class="form-p">Já tem uma conta? <a href="login.html" class="form-link">Entrar</a>
+                        
+                        <img src="source/img/libras/entrar.gif" alt="registrar em libras" class="gif-icon-link">
+                    </p>
+                    
+                </form>
+            
+            </div>
+        </div>
+    </main>
+
+    <script src="javascript/contrasteMode.js"></script>
+    <!-- <script src="javascript/validacao.js"></script> -->
+</body>
+</html>
